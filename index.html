@@ -1,0 +1,623 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>I Ching - Il libro dei mutamenti</title>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/home.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<style>
+
+
+    @font-face {
+    font-family: 'dry_brush';
+    src: url('./assets/fonts/dryBrush/dry_brush.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('./assets/fonts/dryBrush/dry_brush.woff.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+.lineePennello {
+    font-family: 'dry_brush';
+   
+    font-size: 1.5em;
+}
+
+#footer {
+    font-family: 'Mali';
+    font-size: 22px;
+}
+
+#indicazioniYangYin{
+    font-family: 'Mali';
+    font-size: 22px;
+}
+
+
+#testaCroceHover {
+    margin: auto;
+    width: 60%;
+   
+    padding: 10px;
+}
+
+ #tabellaTreMonete  tr {
+				background-color: rgba(255, 255, 255, 0.075);
+                border: none;
+            }
+            
+
+
+
+</style>
+
+
+
+    </head>
+    
+    <body class="is-preload">
+
+            <!-- Wrapper -->
+                <div id="wrapper">
+    
+                    <!-- Header -->
+                        <header id="header">
+                            <div class="logo">
+                                <!--<span class="icon fa-diamond"></span>-->
+                                <span id="icona_animata"></span>
+                            </div>
+                            <div class="content">
+                                <div class="inner">
+                                    <h1>I Ching</h1>
+                                    <p>Il libro dei mutamenti</p>
+                                </div>
+                            </div>
+                            <nav>
+                                <ul>
+                                    <li><a href="#guida">Guida</a></li>
+                                    <li><a href="#consulta">Consulta</a></li>
+                                    <li><a href="#storia">Storia</a></li>
+                                  
+                                </ul>
+                            </nav>
+                        </header>
+    
+                    <!-- Main -->
+                        <div id="main">
+    
+                            <!-- Guida -->
+                                <article id="guida">
+                                    <h2 class="major">Guida</h2>
+                                    <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+                                 
+                                    <p>
+                                        Il metodo più semplice per consultare l'oracolo è quello delle tre monete.
+                                        Tradizione vuole che si usino vecchie monete cinesi di bronzo, con un foro nel
+                                        centro, ma tre monete qualsiasi possono andare bene. 
+                                        Si stabilisce che la testa rappresenta lo yang e vale 3, 
+                                        mentre l'altro lato rappresenta lo yin e vale 2. 
+                                    
+                                    </p> 
+                                       
+                                         <!-- animazione moneta on hover -->
+
+                                         <div class="flip-box" onmouseover="croce(this)" onmouseout="testa(this)" id="testaCroceHover">
+                                                <div class="flip-box-inner">
+                                                  <div class="flip-box-front" >
+                                                    <img src="/images/dante_testa2.png" alt="Testa" style="width:200px;height:200px">
+                                                  </div>
+                                                  <div class="flip-box-back" >
+                                                   <img src="/images/croce.png" alt="Croce" style="width:200px;height:200px">
+                                                  </div>
+                                                   
+                                                 
+                                                </div>
+                                              </div>
+                                              <p></p>
+                                              <p style="text-align: center;" id="indicazioniYangYin">
+                                                    <span id="esitoSingoloLancio">Testa</span>
+                                                    <span >&rArr;</span>
+                                                    <span id="attributoSingoloLancio">Yang</span>
+                                                    <span >&rArr;</span>
+                                                    <span id="valoreSingoloLancio" >vale 3</span>
+                                                   
+                                                    </p>
+
+                                      
+
+
+                                          <!-- animazione moneta on hover -->
+                                        <p></p>Per ottenere le sei linee che comporranno l'esagramma si lanciano contemporaneamente 
+                                        le tre monete, per 6 volte consecutive.
+                                        Ogni lancio dà una linea. Se le tre monete sono tutte yang, la linea risulta un 9; se sono tutte
+                                        yin, la linea è un 6. Le 4 combinazioni possibili sono le seguenti:
+                                    </p>
+                                      
+                                   
+                                        <table>
+                                           <tr>
+                                               <td>2+2+2 = 6</td>
+                                               <td>che dà una linea spezzata mobile</td>
+                                               <td>―x―</td>
+                                             
+                                              
+                                               
+                                           </tr>
+                                           <tr>
+                                                <td>3+2+2 = 7</td>
+                                                <td>che dà una linea intera fissa</td>
+                                                <td>―――</td>
+                                           </tr>
+                                           <tr> 
+                                               <td>3+3+2 = 8</td>
+                                            <td>che dà una linea spezzata fissa</td>
+                                            <td>―&nbsp;&nbsp;&nbsp;―</td>
+                                        </tr>
+                                        <tr>
+                                                <td>3+3+3 = 9</td>
+                                                <td>che dà una linea intera mobile</td>
+                                                <td>―o―</td>
+
+                                        </tr>
+
+                                        </table>
+                                        <p>
+                                                Si esegue questa operazione sei volte, come si è detto annotando via via
+                                                i singoli risultati (iniziando dal basso) e tracciando la linea corrispondente.
+                                                </p>
+
+                                          <!-- animazione monete-->
+                                       <p style="text-align: center;">  
+                                            <button id="pulsante_lancio" type="button" >lancia tre monete</button>
+                                            
+                                       
+                                        </p>
+
+                                        
+<table id="tabellaTreMonete">
+    <col width="50%">
+    <col width="50%">
+        <tr>
+          <td rowspan="6" style="vertical-align: middle;">
+                <div id="coin">
+                        <div class="side-a" ></div>
+                        <div class="side-b" ></div>
+                </div>
+                     
+                      <div id="coin2">
+                        <div class="side-a" ></div>
+                        <div class="side-b" ></div>
+                      </div>
+
+                      <div id="coin3">
+                        <div class="side-a" ></div>
+                        <div class="side-b" ></div>
+                      </div>
+                     
+
+
+          </td>
+          <td rowspan="6" style="text-align: center;">
+             
+              <div  id="linea6" class="lineePennello">?</div>
+              <div  id="linea5" class="lineePennello">?</div>
+              <div id="linea4" class="lineePennello">?</div>
+              <div id="linea3" class="lineePennello">?</div>
+              <div id="linea2" class="lineePennello">?</div>
+              <div id="linea1" class="lineePennello">?</div>
+              
+             
+            </td>
+         
+        </tr>
+        <tr >
+         
+         
+        </tr>
+         <tr >
+          
+         
+        </tr>
+         <tr >
+         
+         
+        </tr>
+         <tr >
+         
+         
+        </tr>
+         <tr>
+          
+         
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                <span>somma : 
+                        <span id="primaMoneta"></span> 
+                        +<span id="secondaMoneta"></span> 
+                        +<span id="terzaMoneta"></span>
+                    </span> = <span id="totaleLancio"></span
+                        >
+
+        </td>
+        <td style="text-align: center;" id="descrizioneLinea"></td>
+        
+        </tr>
+      </table>
+                                    
+                     
+    
+                                            <!-- animazione monete-->
+                                   
+                                        <p style="text-align: center;">Si ottiene così uno dei 64 esagrammi. </p>
+                                        <p style="text-align: center;" >
+                                        Se l'esagramma risulta composto
+                                        solo di elementi lineari fissi (7 o 8), vale per l'oracolo soltanto l'idea complessiva
+                                        dell'esagramma, quale è espressa dalla sentenza e dall'immagine.
+                                    </p>
+                                    </p>
+                                        <p style="text-align:center; font-weight: bold;">ESEMPIO DI ESAGRAMMA STATICO:</p>
+
+                                        
+                                         <p style="text-align:center;">se otteniamo la sequenza 7 8 8 7 7 7 avremo un'esagramma statico, il n° 25:</p>
+                                      
+                                        <div  style="text-align:center;">
+
+                                                <h2 style="text-align:center;">無妄 - Wu Wang</h2>
+                                                <h3  style="text-align:center;">L'innocenza (l'inaspettato)</h3>
+                                                <div style="text-align:center;">
+                                             
+                                            <span  style="font-size: 5em;">䷘</span>
+                                                     
+                                            <p style="text-align:center; font-weight: bold;">sentenza:</p>
+                                             <p style="font-size: 1.5em; font-style: italic;">"L'innocenza. Sublime riuscita. Propizia è perseveranza. Se qualcuno non è retto ha disgrazia, e non è propizio imprendere qualche cosa."</p>
+                                             <p style="text-align:center; font-weight: bold;">immagine:</p>
+                                             <p style="font-size: 1.5em; font-style: italic;">"Sotto il cielo passa il tuono: tutte le cose acquistano lo stato naturale dell'innocenza. Così gli antichi re curavano e nutrivano, ricchi di virtù e in armonia con il tempo, tutti gli esseri."</p>
+                                        
+                                             </div>
+                                            </div>
+
+                                            <p></p>
+                                            <p style="text-align:center; font-weight: bold;">ESEMPIO DI ESAGRAMMA DINAMICO:</p>
+
+                                            
+                                             <p style="text-align:center;">se otteniamo una sequenza in cui compaiono una o più linee mobili (6 o 9) 
+                                                 avremo un'esagramma dinamico. Se ad esempio otteniamo 8 8 6 9 6 6</p>
+                                      
+
+                                             <div style="text-align:center;">
+                                                    <div  class="lineePennello">--x--</div>
+                                                            <div  class="lineePennello">--x--</div>
+                                                        <div  class="lineePennello">--o--</div>
+                                                                            <div  class="lineePennello">--x--</div>
+                                                                            <div  class="lineePennello">-- --</div>
+                                                                            <div class="lineePennello">-- --</div>
+                                                    </div>
+
+                                         <p>
+                                           
+                                        
+                                        dobbiamo considerare oltre alla sentenza e all'immagine anche i commenti alle
+                                        singole linee mobili dell'esagramma di partenza, che trovo trasformando le linee mobili 
+                                        secondo le regole:  
+
+                                        </p>
+                                        <table>
+                                                <tr>
+                                                        <td  style="text-align:center;" colspan="2">per trovare l'esagramma di partenza:</td>
+                                                        
+                                                    </tr>
+                                            <tr>
+                                                <td  style="text-align:center;" ><span class="lineePennello">--o--</span> diventa <span class="lineePennello">-----</span></span> </td>
+                                                <td  style="text-align:center;"><span class="lineePennello">--x--</span> diventa <span class="lineePennello">-- --</span></td>
+                                            </tr>
+                                            <tr>
+                                                    <td  style="text-align:center;"> 9 diventa 7 </span> </td>
+                                                    <td  style="text-align:center;"> 6 diventa 8 </td>
+                                                </tr>
+                                        </table>
+
+                                        <!-- esagramma iniziale esempio-->
+                                        <div  style="text-align:center;">
+
+                                                <h2 style="text-align:center;">豫 - Yü</h2>
+                                                <h3  style="text-align:center;">Il fervore</h3>
+                                                <div style="text-align:center;">
+                                             
+                                            <span  style="font-size: 5em;">&#19919;</span>
+                                                     
+                                            <p style="text-align:center; font-weight: bold;">sentenza:</p>
+                                             <p style="font-size: 1.5em; font-style: italic;">"Il fervore. Propizio è nominare degli aiutanti e far marciare eserciti."</p>
+                                             <p style="text-align:center; font-weight: bold;">immagine:</p>
+                                             <p style="font-size: 1.5em; font-style: italic;">"Il tuono erompe sonoro dalla terra: l'immagine del fervore. Così gli antichi re facevano musica per onorare i meriti, e la presentavano, magnifica offerta, al Dio supremo evocando la presenza dei loro avi."</p>
+                                             <p style="text-align:center; font-weight: bold;">commenti alle linee mobili:</p>
+                                             <p style="font-size: 1.1em; font-style: italic;">"Sei al terzo posto significa: Fervore che guarda in alto crea pentimento. Esitazione reca pentimento"</p>
+                                             <p style="font-size: 1.1em; font-style: italic;">"Nove al quarto posto significa: L'origine del fervore. Egli raggiunge grandi cose. Non dubitare. Gli amici si schierano attorno a te come attorno a una fibbia i capelli."</p>
+                                             <p style="font-size: 1.1em; font-style: italic;">"Sei al quinto posto significa: Costantemente malato e pur non muore mai."</p>
+                                             <p style="font-size: 1.1em; font-style: italic;">"Sei sopra significa: Fervore cieco. Ma se dopo il compimento si giunge al cambiamento, questo non è una macchia."</p>
+                                             </div>
+                                            </div>
+
+
+
+
+
+                                        <!-- esagramma iniziale esempio-->
+                                        <p>
+
+                                            Questo prima esagramma rappresenta la prima parte del responso, (la situazione iniziale), 
+                                            a cui si deve aggiungere la sua
+                                            evoluzione data dall'esagramma finale che trovo trasformando le linee mobili secondo le regole:
+                                         </p>
+                                         <table>
+                                                <tr>
+                                                        <td  style="text-align:center;" colspan="2">per trovare l'esagramma finale:</td>
+                                                        
+                                                    </tr>
+                                            <tr>
+                                                <td  style="text-align:center;" ><span class="lineePennello">--o--</span> diventa <span class="lineePennello">-- --</span></span> </td>
+                                                <td  style="text-align:center;"><span class="lineePennello">--x--</span> diventa <span class="lineePennello">-----</span></td>
+                                            </tr>
+                                            <tr>
+                                                    <td  style="text-align:center;"> 9 diventa 8 </span> </td>
+                                                    <td  style="text-align:center;"> 6 diventa 7 </td>
+                                                </tr>
+                                        </table>
+
+                                                            <!-- esagramma finale esempio-->
+                                                            <div  style="text-align:center;">
+
+                                                                    <h2 style="text-align:center;">漸 - Chien</h2>
+                                                                    <h3  style="text-align:center;">Lo sviluppo (il progresso graduale)</h3>
+                                                                    <div style="text-align:center;">
+                                                                 
+                                                                <span  style="font-size: 5em;">&#19956;</span>
+                                                                         
+                                                                <p style="text-align:center; font-weight: bold;">sentenza:</p>
+                                                                 <p style="font-size: 1.5em; font-style: italic;">"Lo sviluppo. La fanciulla viene data in sposa. Salute! Propizia è perseveranza."</p>
+                                                                 <p style="text-align:center; font-weight: bold;">immagine:</p>
+                                                                 <p style="font-size: 1.5em; font-style: italic;">"Sul monte vi è un albero: l'immagine dello sviluppo. Così il nobile dimora in dignitosa virtù per migliorare i costumi."</p>
+                                                                
+                                                                 </div>
+                                                                </div>
+                    
+                    
+                    
+                    
+                    
+                                                            <!-- esagramma finale esempio-->
+
+                                         
+                                   
+                                    
+                                       
+
+
+                                   
+                                </article>
+    
+                            <!-- Consulta l'oracolo -->
+                                <article id="consulta">
+                                    <!-- indicazioni -->
+                                    <h2 class="major" id="titolo_cons">Consulta l'oracolo</h2>
+                                    <div id="indicazioni">
+                                    <span class="image main" id="immagine_cons">
+                                        <img src="images/pic02.jpg" alt="" />
+                                    </span>
+                                    <p  style="text-align:center;">prima di consultare l'oracolo formula una domanda</p>
+                                    <p  style="text-align:center;">se necessario chiudi gli occhi per qualche istante e concentrati su di essa, 
+                                      assicurandoti che sia sincera e che la tua mente sia calma e serena.
+                                    </p>
+                                    
+                                  
+                                       
+                                        <div style="text-align:center;">
+                                            <button id="pulsanteConsulta" type="button" onclick="mostraEsagramma();">interroga l'oracolo</button>
+                                        </div>
+
+                                    </div>
+
+                                      <!-- fine indicazioni -->
+
+                                      <!-- risposta -->
+                                     
+                                     <div id="risposta"  style="text-align:center;">
+
+                                        <h2 id="nome"  style="text-align:center;"></h2>
+                                        <h3 id="simbolo"  style="text-align:center;"></h3>
+                                        <div style="text-align:center;">
+                                     
+                                    <span id="esagrammaStatico"  style="font-size: 5em;"></span>
+                                     
+                                    <p style="text-align:center; font-weight: bold;" id="titoloSentenza"></p>
+                                     <p id="sentenza" style="font-size: 1.2em; font-style: italic;"></p>
+                                     <p style="text-align:center; font-weight: bold;" id="titoloImmagine"></p>
+                                     <p id="immagine" style="font-size: 1.2em; font-style: italic;"></p>
+                                     
+                                        <!-- singole linee mobili -->
+                                        <p style="text-align:center; font-weight: bold;" id="titoloLineeMobili"></p>
+                                        <p id="primaLineaMobile" style="font-size: 1.1em; font-style: italic;"></p>
+                                        <p id="secondaLineaMobile" style="font-size: 1.1em; font-style: italic;"></p>
+                                        <p id="terzaLineaMobile" style="font-size: 1.1em; font-style: italic;"></p>
+                                        <p id="quartaLineaMobile" style="font-size: 1.1em; font-style: italic;"></p>
+                                        <p id="quintaLineaMobile" style="font-size: 1.1em; font-style: italic;"></p>
+                                        <p id="sestaLineaMobile" style="font-size: 1.1em; font-style: italic;"></p>
+
+
+                                        <!-- esagramma finale-->
+                                        <h2 id="nome_es_finale"  style="text-align:center;"></h2>
+                                        <h3 id="simbolo_es_finale"  style="text-align:center;"></h3>
+                                        <span id="esagrammaFinale"  style="font-size: 5em;"></span>
+                                        
+                                        <p style="text-align:center; font-weight: bold;" id="titoloSentenzaFinale"></p>
+                                        <p id="sentenza_ef" style="font-size: 1.2em; font-style: italic;"></p>
+                                        <p style="text-align:center; font-weight: bold;" id="titoloImmagineFinale"></p>
+                                        <p id="immagine_ef" style="font-size: 1.2em; font-style: italic;"></p>
+                                        
+                                     </div>
+                                    </div>
+
+                                   
+                                    
+
+                                </article>
+    
+                            <!-- Storia -->
+                                <article id="storia">
+                                    <h2 class="major">Storia</h2>
+                                    <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+
+                                    <p style="text-align:center; font-weight: bold;" >Origine</p>
+                                    <p style="font-size: 1.1em; ">
+                                        Il libro dei mutamenti prese forma in Cina circa 3000 anni fa, 
+                                        come manuale di divinazione composto 
+                                        da 64 simboli ottenuti dalla combinazione di 6 linee continue o spezzate,
+                                        noti come esagrammi. 
+                                        All'epoca della dinastia Zhou (c. 1045-256 a.C.), 
+                                        ogni esagramma acquisì un
+                                        nome, una breve descrizione e i commenti alle singole linee. 
+                                        Durante il terzo secolo a.C. vi si aggiunsero
+                                        dei commentari e nel 136 a.C. il testo così composto ottenne il riconoscimento 
+                                        imperiale di testo classico del Confucianesimo.
+                                        L'opera si diffuse velocemente in Tibet, Corea, Giappone e Vietnam 
+                                        sfruttando il
+                                        fatto che la lingua cinese classica con cui era stato scritto 
+                                        svolgeva il ruolo di lingua franca
+                                        per le classi colte dell'epoca. 
+                                        </p>
+                                             
+                                        <p style="text-align:center; font-weight: bold;" >Diffusione in Occidente</p>
+                                        <p style="font-size: 1.1em; ">
+                                        Le prime traduzioni del testo nelle lingue occidentali, ad 
+                                        opera di missionari cristiani, risalgono al XVI secolo. In 
+                                        Occidente l'opera conobbe una diffusione inarrestabile, anche 
+                                        al di fuori dei circoli accademici, a partire 
+                                        dagli anni Sessanta e Settanta del Novecento, grazie ai movimenti
+                                        giovanili di contestazione europei e americani che ne fecero una 
+                                        delle loro opere di riferimento. Da quel momento l'opera ispirò  
+                                        innumerevoli artisti e scrittori. 
+                                        L'elenco è davvero lunghissimo, mi limiterò quindi a citare i più
+                                        famosi. Nella musica Bob Dylan e John Lennon
+                                        
+                                   
+                                         </p>
+                                        
+                                        <p style="text-align:center; font-size: 1.2em; font-style: italic;"> 
+                                            "i threw the I-Ching yesterday, it said there might be some thunder at the well" 
+                                            (Bob Dylan, <a href="https://www.youtube.com/watch?v=fJsijHLx9Es " target="_blank">Idiot wind</a>, bootleg version (min: 1:50) - 1974)</p>
+
+                                            
+                                            <p style="text-align:center; font-size: 1.2em; font-style: italic;"> 
+                                                "i don't believe in I Ching" 
+                                                (John Lennon, <a href="https://www.youtube.com/watch?v=oCLsa98D7iU" target="_blank">God</a>, 1976)</p>
+
+                                        
+                                        <p style="font-size: 1.1em; ">
+                                                In letteratura Allen Ginsberg, con la poesia 
+                                                <span style="font-style: italic;">"Consulting I Ching smoking pot listening to the fugs sing Blake" </span>
+                                                e molti altri poeti della beat generation. 
+
+                                                Ma l'esempio forse più emblematico è il libro di Philip K. Dick
+                                                <span style="font-style: italic;">"The man in the high castle"</span>, pubblicato nel 1962 
+                                                e premiato l'anno 
+                                                successivo con il premio Hugo per il miglior romanzo.
+                                                In italia è noto con il titolo 
+                                                <a href="https://amzn.to/2OksxT3" target="_blank">"la svastica sul sole"</a>. 
+                                                La trama si svolge in un futuro alternativo in cui 
+                                                la Germania nazista e il Giappone hanno sconfitto gli alleati nella seconda 
+                                                guerra mondiale. Tutti i personaggi principali
+                                                consultano quotidianamente 
+                                                l'oracolo per avere consigli su quali azioni intraprendere 
+                                                nei momenti difficili o di dubbio. 
+                                                Dick stesso delineò
+                                                la trama del romanzo seguendo le indicazioni ottenute di volta in volta
+                                                dalla sua consultazione. 
+
+                                                
+                                                
+                                            </p>
+
+
+
+                                   
+                                     
+                                  
+                                    <p style="text-align:center; font-weight: bold;" >Bibliografia</p>
+
+                                    <ul>
+                                        <li><a href="https://amzn.to/2Nr4gW8" target="_blank">I Ching</a> - a cura di R. Wilhelm - Adelphi;</li>
+                                        <li><a href="https://amzn.to/2BYtHMt" target="_blank">The I Ching: A Biography</a> - Richard J. Smith - Princeton University Press</li>
+                                      </ul>  
+                                    
+                                    
+                                      <table>
+                                        <tr>
+                                            <td>
+                                                <span>&#9776;</span>
+                                            </td>
+                                            <td>
+                                                <span >&#9777;</span>
+                                            </td>
+                                            <td>     
+                                                        <span >&#9778;</span>
+                                                    </td>
+                                            <td> 
+                                                <span >&#9779;</span>
+                                           </td>
+                                            <td> 
+                                                <span >&#9780;</span>
+                                           </td>
+                                            <td> 
+                                                <span >&#9781;</span>
+                                          </td>
+                                            <td> 
+                                                <span >&#9782;</span>
+                                           </td>
+                                            <td> 
+                                                <span>&#9783;</span>
+                                            </td>
+                                        </tr>
+                                      
+                                     </table>
+                                
+                                    
+
+          
+                                    
+                                </article>
+    
+                       
+                 
+
+    
+                        </div>
+    
+                    <!-- Footer -->
+                        <footer id="footer">
+                            <p class="copyright">&copy; Contenuti, logica e animazioni: <a href="https://github.com/alessioGaimarri" target="_blank">Alessio Gaimarri</a> Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a> Foto: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+                            <p class="copyright" id="dedica">Dedicato a Cristiana, la ragazza che mi ha quasi convinto a credere agli oroscopi. &#x1F609;</p>
+                               
+                            </footer>
+                        
+                </div>
+    
+            <!-- BG -->
+                <div id="bg"></div>
+    
+            <!-- Scripts -->
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/browser.min.js"></script>
+                <script src="assets/js/breakpoints.min.js"></script>
+                <script src="assets/js/util.js"></script>
+                <script src="assets/js/main.js"></script>
+                <script src="assets/js/home.js"></script>
+
+            
+                <script>
+               
+                </script>
+
+        </body>
+    </html>
