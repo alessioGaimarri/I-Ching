@@ -15,196 +15,259 @@ esagrammi = ["&#19904","&#19905;","&#19906;","&#19907;","&#19908;","&#19909;","&
 function animazioneEsagrammi() {
 var a;
 a = document.getElementById("icona_animata");
-a.innerHTML = "&#19904";
+a.innerHTML = '<img src="images/esagrammi/19904.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />';
 
 setTimeout(function () {
-    a.innerHTML = "&#19905;";
+    //a.innerHTML = "&#19905;"; 
+    a.innerHTML = '<img src="images/esagrammi/19905.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 1000);
 setTimeout(function () {
-    a.innerHTML = "&#19906;";
+    //a.innerHTML = "&#19906;";
+    a.innerHTML = '<img src="images/esagrammi/19906.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 2000);
 setTimeout(function () {
-    a.innerHTML = "&#19907;";
+  //a.innerHTML = "&#19907;";
+    a.innerHTML = '<img src="images/esagrammi/19907.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 3000);
 setTimeout(function () {
-    a.innerHTML = "&#19908;";
+  //a.innerHTML = "&#19908;";
+    a.innerHTML = '<img src="images/esagrammi/19908.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 4000);
     setTimeout(function () {
-    a.innerHTML = "&#19909;";
+  //a.innerHTML = "&#19909;";
+    a.innerHTML = '<img src="images/esagrammi/19909.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 5000);
     setTimeout(function () {
-    a.innerHTML = "&#19910;";
+    //a.innerHTML = "&#19910;";
+    a.innerHTML = '<img src="images/esagrammi/19910.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 6000);
     setTimeout(function () {
-    a.innerHTML = "&#19911;";
+    //a.innerHTML = "&#19911;";
+    a.innerHTML = '<img src="images/esagrammi/19911.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 7000);
     setTimeout(function () {
-    a.innerHTML = "&#19912;";
+    //a.innerHTML = "&#19912;";
+    a.innerHTML = '<img src="images/esagrammi/19912.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 8000);
     setTimeout(function () {
-    a.innerHTML = "&#19913;";
+    //a.innerHTML = "&#19913;";
+    a.innerHTML = '<img src="images/esagrammi/19913.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 9000);
     setTimeout(function () {
-    a.innerHTML = "&#19914;";
+    //a.innerHTML = "&#19914;";
+    a.innerHTML = '<img src="images/esagrammi/19914.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 10000);
     setTimeout(function () {
-    a.innerHTML = "&#19915;";
+    //a.innerHTML = "&#19915;";
+    a.innerHTML = '<img src="images/esagrammi/19915.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 11000);
     setTimeout(function () {
-    a.innerHTML = "&#19916;";
+   // a.innerHTML = "&#19916;";
+    a.innerHTML = '<img src="images/esagrammi/19916.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 12000);
     setTimeout(function () {
-    a.innerHTML = "&#19917;";
+    //a.innerHTML = "&#19917;";
+    a.innerHTML = '<img src="images/esagrammi/19917.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 13000);
     setTimeout(function () {
-    a.innerHTML = "&#19918;";
+    //a.innerHTML = "&#19918;";
+    a.innerHTML = '<img src="images/esagrammi/19918.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 14000);
     setTimeout(function () {
-    a.innerHTML = "&#19919;";
+    //a.innerHTML = "&#19919;";
+    a.innerHTML = '<img src="images/esagrammi/19919.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 15000);
     setTimeout(function () {
-    a.innerHTML = "&#19920;";
+    //a.innerHTML = "&#19920;";
+    a.innerHTML = '<img src="images/esagrammi/19920.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 16000);
     setTimeout(function () {
-    a.innerHTML = "&#19921;";
+    //a.innerHTML = "&#19921;";
+    a.innerHTML = '<img src="images/esagrammi/19921.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 17000);
     setTimeout(function () {
-    a.innerHTML = "&#19922;";
+    //a.innerHTML = "&#19922;";
+    a.innerHTML = '<img src="images/esagrammi/19922.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 18000);
     setTimeout(function () {
-    a.innerHTML = "&#19923;";
+    //a.innerHTML = "&#19923;";
+    a.innerHTML = '<img src="images/esagrammi/19923.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 19000);
     setTimeout(function () {
-    a.innerHTML = "&#19924;";
+    //a.innerHTML = "&#19924;";
+    a.innerHTML = '<img src="images/esagrammi/19924.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 20000);
     setTimeout(function () {
-    a.innerHTML = "&#19925;";
+    //a.innerHTML = "&#19925;";
+    a.innerHTML = '<img src="images/esagrammi/19925.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 21000);
     setTimeout(function () {
-    a.innerHTML = "&#19926;";
+    //a.innerHTML = "&#19926;";
+    a.innerHTML = '<img src="images/esagrammi/19926.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 22000);
     setTimeout(function () {
-    a.innerHTML = "&#19927;";
+    //a.innerHTML = "&#19927;";
+    a.innerHTML = '<img src="images/esagrammi/19927.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 23000);
     setTimeout(function () {
-    a.innerHTML = "&#19928;";
+    //a.innerHTML = "&#19928;";
+    a.innerHTML = '<img src="images/esagrammi/19928.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 24000);
     setTimeout(function () {
-    a.innerHTML = "&#19929;";
+    //a.innerHTML = "&#19929;";
+    a.innerHTML = '<img src="images/esagrammi/19929.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 25000);
     setTimeout(function () {
-    a.innerHTML = "&#19930;";
+    //a.innerHTML = "&#19930;";
+    a.innerHTML = '<img src="images/esagrammi/19930.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 26000);
     setTimeout(function () {
-    a.innerHTML = "&#19931;";
+    //a.innerHTML = "&#19931;";
+    a.innerHTML = '<img src="images/esagrammi/19931.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 27000);
     setTimeout(function () {
-    a.innerHTML = "&#19932;";
+    //a.innerHTML = "&#19932;";
+    a.innerHTML = '<img src="images/esagrammi/19932.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 28000);
     setTimeout(function () {
-    a.innerHTML = "&#19933;";
+    //a.innerHTML = "&#19933;";
+    a.innerHTML = '<img src="images/esagrammi/19933.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 29000);
     setTimeout(function () {
-    a.innerHTML = "&#19934;";
+    //a.innerHTML = "&#19934;";
+    a.innerHTML = '<img src="images/esagrammi/19934.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 30000);
     setTimeout(function () {
-    a.innerHTML = "&#19935;";
+    //a.innerHTML = "&#19935;";
+    a.innerHTML = '<img src="images/esagrammi/19935.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 31000);
     setTimeout(function () {
-    a.innerHTML = "&#19936;";
+    //a.innerHTML = "&#19936;";
+    a.innerHTML = '<img src="images/esagrammi/19936.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 32000);
     setTimeout(function () {
-    a.innerHTML = "&#19937;";
+    //a.innerHTML = "&#19937;";
+    a.innerHTML = '<img src="images/esagrammi/19937.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 33000);
     setTimeout(function () {
-    a.innerHTML = "&#19938;";
+    //a.innerHTML = "&#19938;";
+    a.innerHTML = '<img src="images/esagrammi/19938.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 34000);
     setTimeout(function () {
-    a.innerHTML = "&#19939;";
+    //a.innerHTML = "&#19939;";
+    a.innerHTML = '<img src="images/esagrammi/19939.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 35000);
     setTimeout(function () {
-    a.innerHTML = "&#19940;";
+    //a.innerHTML = "&#19940;";
+    a.innerHTML = '<img src="images/esagrammi/19940.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 36000);
     setTimeout(function () {
-    a.innerHTML = "&#19941;";
+    //a.innerHTML = "&#19941;";
+    a.innerHTML = '<img src="images/esagrammi/19941.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 37000);
     setTimeout(function () {
-    a.innerHTML = "&#19942;";
+    //a.innerHTML = "&#19942;";
+    a.innerHTML = '<img src="images/esagrammi/19942.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 38000);
     setTimeout(function () {
-    a.innerHTML = "&#19943;";
+    //a.innerHTML = "&#19943;";
+    a.innerHTML = '<img src="images/esagrammi/19943.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 39000);
     setTimeout(function () {
-    a.innerHTML = "&#19944;";
+    //a.innerHTML = "&#19944;";
+    a.innerHTML = '<img src="images/esagrammi/19944.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 40000);
     setTimeout(function () {
-    a.innerHTML = "&#19945;";
+    //a.innerHTML = "&#19945;";
+    a.innerHTML = '<img src="images/esagrammi/19945.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 41000);
     setTimeout(function () {
-    a.innerHTML = "&#19946;";
+    //a.innerHTML = "&#19946;";
+    a.innerHTML = '<img src="images/esagrammi/19946.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 42000);
     setTimeout(function () {
-    a.innerHTML = "&#19947;";
+    //a.innerHTML = "&#19947;";
+    a.innerHTML = '<img src="images/esagrammi/19947.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 43000);
     setTimeout(function () {
-    a.innerHTML = "&#19948;";
+    //a.innerHTML = "&#19948;";
+    a.innerHTML = '<img src="images/esagrammi/19948.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 44000);
     setTimeout(function () {
-    a.innerHTML = "&#19949;";
+    //a.innerHTML = "&#19949;";
+    a.innerHTML = '<img src="images/esagrammi/19949.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 45000);
     setTimeout(function () {
-    a.innerHTML = "&#19950;";
+    //a.innerHTML = "&#19950;";
+    a.innerHTML = '<img src="images/esagrammi/19950.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 46000);
     setTimeout(function () {
-    a.innerHTML = "&#19951;";
+    //a.innerHTML = "&#19951;";
+    a.innerHTML = '<img src="images/esagrammi/19951.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 47000);
     setTimeout(function () {
-    a.innerHTML = "&#19952;";
+    //a.innerHTML = "&#19952;";
+    a.innerHTML = '<img src="images/esagrammi/19952.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 48000);
     setTimeout(function () {
-    a.innerHTML = "&#19953;";
+    //a.innerHTML = "&#19953;";
+    a.innerHTML = '<img src="images/esagrammi/19953.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 49000);
     setTimeout(function () {
-    a.innerHTML = "&#19954;";
+    //a.innerHTML = "&#19954;";
+    a.innerHTML = '<img src="images/esagrammi/19954.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 50000);
     setTimeout(function () {
-    a.innerHTML = "&#19955;";
+    //a.innerHTML = "&#19955;";
+    a.innerHTML = '<img src="images/esagrammi/19955.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 51000);
     setTimeout(function () {
-    a.innerHTML = "&#19956;";
+    //a.innerHTML = "&#19956;";
+    a.innerHTML = '<img src="images/esagrammi/19956.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 52000);
     setTimeout(function () {
-    a.innerHTML = "&#19957;";
+    //a.innerHTML = "&#19957;";
+    a.innerHTML = '<img src="images/esagrammi/19957.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 53000);
     setTimeout(function () {
-    a.innerHTML = "&#19958;";
+    //a.innerHTML = "&#19958;";
+    a.innerHTML = '<img src="images/esagrammi/19958.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 54000);
     setTimeout(function () {
-    a.innerHTML = "&#19959;";
+    //a.innerHTML = "&#19959;";
+    a.innerHTML = '<img src="images/esagrammi/19959.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 55000);
     setTimeout(function () {
-    a.innerHTML = "&#19960;";
+    //a.innerHTML = "&#19960;";
+    a.innerHTML = '<img src="images/esagrammi/19960.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 56000);
     setTimeout(function () {
-    a.innerHTML = "&#19961;";
+    //a.innerHTML = "&#19961;";
+    a.innerHTML = '<img src="images/esagrammi/19961.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 57000);
     setTimeout(function () {
-    a.innerHTML = "&#19962;";
+    //a.innerHTML = "&#19962;";
+    a.innerHTML = '<img src="images/esagrammi/19962.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 58000);
     setTimeout(function () {
-    a.innerHTML = "&#19963;";
+    //a.innerHTML = "&#19963;";
+    a.innerHTML = '<img src="images/esagrammi/19963.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 59000);
     setTimeout(function () {
-    a.innerHTML = "&#19964;";
+    //a.innerHTML = "&#19964;";
+    a.innerHTML = '<img src="images/esagrammi/19964.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 60000);
     setTimeout(function () {
-    a.innerHTML = "&#19965;";
+    //a.innerHTML = "&#19965;";
+    a.innerHTML = '<img src="images/esagrammi/19965.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 61000);
     setTimeout(function () {
-    a.innerHTML = "&#19966;";
+    //a.innerHTML = "&#19966;";
+    a.innerHTML = '<img src="images/esagrammi/19966.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 62000);
     setTimeout(function () {
-    a.innerHTML = "&#19967;";
+    //a.innerHTML = "&#19967;";
+    a.innerHTML = '<img src="images/esagrammi/19967.png" alt="" style="filter: invert(100%); vertical-align:middle; max-width: 75%; height: auto;" />'
     }, 63000);
  
 
