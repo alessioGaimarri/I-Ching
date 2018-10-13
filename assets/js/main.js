@@ -298,7 +298,7 @@
 							location.hash = '';
 							// logica da aggiungere per ripulire l'esito della consultazione
 							 // alert("ciao");
-							  document.getElementById("esagrammaStatico").innerHTML = "";
+							  document.getElementById("imgEsaStatico").innerHTML = "";
 							  document.getElementById("nome").innerHTML= "";
 							  document.getElementById("simbolo").innerHTML= "";
 							  document.getElementById("sentenza").innerHTML= "";
@@ -314,7 +314,8 @@
 							  document.getElementById("quartaLineaMobile").innerHTML= "";
 							  document.getElementById("quintaLineaMobile").innerHTML= "";
 							  document.getElementById("sestaLineaMobile").innerHTML = "";
-							  document.getElementById("esagrammaFinale").innerHTML = "";
+							 // document.getElementById("esagrammaFinale").innerHTML = "";
+							 document.getElementById("imgEsFinale").innerHTML = "";
                               document.getElementById("nome_es_finale").innerHTML= "";
                               document.getElementById("simbolo_es_finale").innerHTML = "";
                               document.getElementById("sentenza_ef").innerHTML = "";

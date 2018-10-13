@@ -417,7 +417,7 @@ jQuery(document).ready(function($){
        
       
        
-       new Vivus('canvas', {start: 'autostart', type: 'delayed', duration: 200});
+     
 
 
    });
@@ -2868,6 +2868,20 @@ function infoEsagramma(hex){
 }
 
 
+function estraiNumero(stringa) {
+  var soloNumeri = stringa.match(/[0-9]+/g);
+  return soloNumeri
+  
+  }
+
+function generaImgTag(stringa) {
+  
+  var primaParte = '<img src="images/esagrammi/';
+  var secondaParte = '.png" alt="esagramma_25" style="filter: invert(100%); width: 25%; height: auto;" />';
+  var tag = primaParte + stringa + secondaParte;
+  return tag;
+}
+
 
 function mostraEsagramma(){
 
@@ -2880,7 +2894,13 @@ function mostraEsagramma(){
    
     es = infoEsagramma(hex);
     
-    document.getElementById("esagrammaStatico").innerHTML = es["esagrammaUTF8"];
+    //document.getElementById("esagrammaStatico").innerHTML = es["esagrammaUTF8"];
+    // pezza 
+    //document.getElementById("imgEsaStatico").innerHTML = estraiNumero(es["esagrammaUTF8"]);
+    
+    //document.getElementById("imgEsaStatico").innerHTML = '<img src="images/esagrammi/19919.png" alt="esagramma_25" style="filter: invert(100%); width: 25%; height: auto;" />';
+    document.getElementById("imgEsaStatico").innerHTML = generaImgTag(estraiNumero(es["esagrammaUTF8"]));
+    //
     document.getElementById("nome").innerHTML = es["nome"];
     document.getElementById("simbolo").innerHTML = es["simbolo"];
     document.getElementById("sentenza").innerHTML = es["sentenza"];
@@ -2902,10 +2922,13 @@ function mostraEsagramma(){
     document.getElementById("sestaLineaMobile").innerHTML = es["sestaLineaMobile"];
 
      // mostro anche l'esagramma finale: 
-     es_finale = es["esagramma_finale"];
+     es_finale = es["esagramma_finale"]; 
 
      
-    document.getElementById("esagrammaFinale").innerHTML = es_finale["esagrammaUTF8"];
+    //document.getElementById("esagrammaFinale").innerHTML = es_finale["esagrammaUTF8"];
+    document.getElementById("imgEsFinale").innerHTML = generaImgTag(estraiNumero(es_finale["esagrammaUTF8"]));
+
+    
     document.getElementById("nome_es_finale").innerHTML = es_finale["nome"];
     document.getElementById("simbolo_es_finale").innerHTML = es_finale["simbolo"];
     document.getElementById("sentenza_ef").innerHTML = es_finale["sentenza"];
